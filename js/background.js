@@ -6,6 +6,6 @@ select.addEventListener("change", function() {
     const getTargetValue = getTarget.value
     const getTargetText = getTarget.text
 
-    colors.style.background = getTargetValue
-    colors.innerHTML = getTargetText
+    colors.style.backgroundColor = getTargetValue
+    colors.textContent = getTargetText
 })
